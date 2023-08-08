@@ -1,4 +1,25 @@
 .note{
-    border: 2px solid black;
-    background-color: #FFD1DA;
+    border: 1px solid black;
+    background-color: #f8e6c5;
+    padding: 3%;
+    min-height: 200px;
+    min-width: 200px;
+    position: relative;
+    border-radius: 5%;
+}
+.note-footer{
+    position: absolute;
+    bottom: 6%;
+    box-sizing: border-box;
+    width: 94%;
+    display: block;
+    padding-right: 10px;
+}
+.note-date{
+    float: left;
+}
+.del-icon{
+    float: right;
+    font-size: x-large;
+    cursor: pointer;
 }
